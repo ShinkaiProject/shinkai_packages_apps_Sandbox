@@ -4,7 +4,59 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+
+    <!-- Base Sand Color -->
     <path
-        android:fillColor="#FFFFFF"
+        android:fillColor="#DCD3A2"
         android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Light Sand Pixel Grid (12x12 grid, 9dp per block) -->
+    <path
+        android:fillColor="#E9E2B8"
+        android:pathData="M9,0h9v9h-9z M27,0h18v9h-18z M63,0h9v9h-9z M90,0h18v9h-18z
+                          M0,9h9v9h-9z M45,9h9v9h-9z M72,9h18v9h-18z
+                          M18,18h18v9h-18z M54,18h9v9h-9z M99,18h9v9h-9z
+                          M0,27h9v9h-9z M36,27h9v9h-9z M81,27h9v9h-9z
+                          M9,36h18v9h-18z M63,36h18v9h-18z M90,36h9v9h-9z
+                          M0,45h9v9h-9z M27,45h9v9h-9z M99,45h9v9h-9z
+                          M9,54h9v9h-9z M81,54h18v9h-18z
+                          M0,63h18v9h-18z M72,63h9v9h-9z M99,63h9v9h-9z
+                          M27,72h9v9h-9z M90,72h9v9h-9z
+                          M0,81h9v9h-9z M18,81h9v9h-9z M54,81h18v9h-18z M81,81h9v9h-9z
+                          M9,90h18v9h-18z M36,90h9v9h-9z M72,90h9v9h-9z M99,90h9v9h-9z
+                          M0,99h9v9h-9z M27,99h18v9h-18z M63,99h9v9h-9z M81,99h18v9h-18z"/>
+
+    <!-- Medium-Dark Sand Pixel Accents -->
+    <path
+        android:fillColor="#CFC591"
+        android:pathData="M0,0h9v9h-9z M45,0h18v9h-18z M81,0h9v9h-9z
+                          M18,9h9v9h-9z M63,9h9v9h-9z M90,9h9v9h-9z
+                          M0,18h9v9h-9z M36,18h9v9h-9z M81,18h9v9h-9z
+                          M9,27h9v9h-9z M72,27h9v9h-9z M90,27h18v9h-18z
+                          M0,36h9v9h-9z M81,36h9v9h-9z
+                          M18,45h9v9h-9z M90,45h9v9h-9z
+                          M0,54h9v9h-9z M99,54h9v9h-9z
+                          M18,63h9v9h-9z M90,63h9v9h-9z
+                          M9,72h9v9h-9z M81,72h9v9h-9z M99,72h9v9h-9z
+                          M27,81h18v9h-18z M90,81h9v9h-9z
+                          M0,90h9v9h-9z M45,90h9v9h-9z M81,90h18v9h-18z
+                          M18,99h9v9h-9z M54,99h9v9h-9z M99,99h9v9h-9z"/>
+
+    <!-- Deep Sand Shadow Pixels -->
+    <path
+        android:fillColor="#C2B680"
+        android:pathData="M18,0h9v9h-9z M72,0h9v9h-9z
+                          M27,9h9v9h-9z M99,9h9v9h-9z
+                          M9,18h9v9h-9z M72,18h9v9h-9z
+                          M18,27h9v9h-9z M99,36h9v9h-9z
+                          M9,45h9v9h-9z M81,45h9v9h-9z
+                          M18,54h9v9h-9z M0,72h9v9h-9z
+                          M9,81h9v9h-9z M72,81h9v9h-9z
+                          M27,90h9v9h-9z M63,90h9v9h-9z
+                          M9,99h9v9h-9z M72,99h9v9h-9z"/>
+
+    <!-- Bright Highlight Sand Pixels -->
+    <path
+        android:fillColor="#F4EEC8"
+        android:pathData="M36,9h9v9h-9z M63,18h9v9h-9z M9,63h9v9h-9z M81,63h9v9h-9z M18,72h9v9h-9z M36,81h9v9h-9z"/>
 </vector>
